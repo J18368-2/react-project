@@ -1,0 +1,295 @@
+body {
+	background: linear-gradient(0deg, #000, #000);
+	background-size: 400% 400%;
+	margin: 0px;
+}
+
+/*font*/
+
+@font-face {
+   font-family: sansation;
+   src: url(sansation_light.woff);
+}
+
+
+/*end of font*/
+
+
+/*header video*/
+#HeaderVideo
+{
+	position: relative;
+	float: left;
+    width: 100%;
+    height: 328px;
+}
+
+#HeaderVideo > video {
+	max-width: 100%;
+}
+/*end of header video*/
+/*homePage*/
+
+.home {
+	background-color: #AD5A40;
+}
+
+.homePage {
+	margin-top: -1%;
+	margin-bottom: -4%;
+	position: relative;
+	display: inline-block;
+	font-family: sansation;
+	color:#dfdfdf;
+	padding: 5% 15% 3% 15%;
+}
+
+
+#rightColPlayerCount {
+	width:256px;
+	height:80px;
+	position:relative;
+	margin-left:14px;
+	background-image:url('http://cdn.dota2.com/apps/dota2/images/blogfiles/2014/rightcol_uniqueplayers_bg_n.png');
+	background-repeat:no-repeat;
+	background-size: cover;
+	margin-bottom:4px;
+}
+#rightColPlayerCountNum {
+	font-family:arial,sans-serif;
+	font-weight:bold;
+	font-size:22px;
+	color:#c9c9c9;
+	background:-webkit-linear-gradient(top, rgba(205,205,205,1) 0%,rgba(153,153,153,1) 100%);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	position:absolute;
+  	width:257px;
+  	left:4px;
+  	text-align:center;
+  	top:26px;
+  	height:19px;
+  	letter-spacing:2px;
+}
+
+.homePage .btn {
+	padding: 5px 10px;
+	background-color: rgba(00,50,50,1);
+	text-decoration: none;
+	color:white;
+	border-radius: 5px;
+}
+
+
+.homePage .btn:hover {
+	text-decoration: none;
+	background-color:#5f5f5f;
+}
+
+
+.homePage .container {
+	background-image: url('http://cdn.dota2.com/apps/dota2/images/blogfiles/2014/content_bg_top.jpg');
+	padding: 10px 30% 30px 20px;
+	opacity: 0.97;
+	border-radius: 10px;
+}
+
+.post2 {
+	width: 100%;
+	z-index: 1;
+}
+
+.post2 a {
+	z-index: 5;
+}
+
+.post2-patch {
+	text-decoration: none;
+	color:#7f7f2f;
+}
+
+.post2-patch:hover {
+	color: #8f8f3f;
+}
+
+.container-battlepass {
+	background-image: url('http://cdn.dota2.com/apps/dota2/images/international2016/battle_pass/01A_bg.jpg');
+	height: 200px;
+	width: 100%;
+	background-size:cover;
+	background-position: 0 -70px;
+	opacity: 0.9;
+	display: inline-block;
+}
+.homePage {
+    background-image:url('http://cdn.dota2.com/apps/dota2/images/international2016/battle_pass/10_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0e0e0e;
+}
+/*end of homePage*/
+
+#app {
+	font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #4d4d4d;
+	/*min-width: 550px;
+	max-width: 850px;*/
+	margin: 0 auto;
+}
+
+a.active,a:hover {
+	color: #afafaf;
+	text-decoration: none;
+}
+
+nav {
+	z-index: 2;
+	background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5));
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+nav > a > img {
+	padding-top: 10px;
+}
+
+nav > a {
+	font-family: sansation;
+	color:white;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 700;
+	margin-left: 5%;
+	margin-right: 5%;
+	border-radius: 5px;
+}
+/*footer*/
+.footer {
+	height: 100px;
+	background-color:#1a1a1a;
+}
+
+.footer > .container {
+	padding-top: 30px;
+	border-top: 2px solid grey;
+}
+
+.footer > .container > img {
+	padding-left: 5%;
+}
+
+.footer > .container > span {
+	color:#dfdfdf;
+	display: block;
+	position: relative;
+	float: right;
+	max-width: 800px;
+	padding-right: 21%; 
+}
+/*end of footer*/
+
+/*sidebar*/
+.topbar {
+	position: relative;
+	z-index: 3;
+
+}
+
+
+.end-content {
+	position: absolute;
+	margin: -14% 0 0% 13.5%;
+	width:916px;
+	height:163px;
+	z-index:0;
+	background-image: url('../img/bottom.png');
+	background-repeat:no-repeat;
+}
+
+.sidebar {
+	position: absolute;
+	z-index: 3;
+	margin: 5% 0 0 49%;
+	padding: 2% 1%;
+}
+
+
+.sidebar-battlepass {
+	background-image: url('http://cdn.dota2.com/apps/dota2/images/blogfiles/2014/rightcol_ti6battlepass.jpg');
+	width: 256px;
+	height: 164px;
+	margin: -3% 0 0 5%;
+}
+
+
+.sidebar-battlepass:hover {
+	background-position: 0% 100%;
+}
+
+.sidebar-battlepass img {
+	width: 256px;
+	height: 164px;
+}
+
+
+.sidebar-balance-of-power {
+	background-image:url('http://cdn.dota2.com/apps/dota2/images/blogfiles/2014/rcb_balanceofpower.jpg');
+	width:  256px;
+	height: 164px;
+	margin: 1% 0 0 5%;
+}
+
+.sidebar-balance-of-power:hover {
+	background-position: 0% 100%;
+}
+
+.sidebar-frankfurt-major {
+	background-image:url('http://cdn.dota2.com/apps/dota2/images/blogfiles/2014/rcb_frankfurt2015.jpg');
+	width: 256px;
+	height: 164px;
+	margin: 1% 0 0 5%;
+}
+
+.sidebar-frankfurt-major:hover {
+	background-position: 0% 100%;
+}
+.sidebar-shanghai-major {
+	background-image:url('http://cdn.dota2.com/apps/dota2/images/blogfiles/2014/rcb_theshanghaimajor2016.jpg');
+	width: 256px;
+	height: 164px;
+	margin: 1% 0 0 5%;
+}
+
+.sidebar-shanghai-major:hover {
+	background-position: 0% 100%;
+}
+
+.sidebar-leaderboard {
+	background-image:url('http://cdn.dota2.com/apps/dota2/images/blogfiles/2014/rcb_leaderboards.png');
+	margin: 1% 0 0 5%;
+	width: 256px;
+	height: 48px;
+}
+
+.sidebar-leaderboard:hover {
+	background-position: 0% 100%;
+}
+
+.sidebar-leaderboard img {
+	width: 262px;
+	height: 48px;
+}
+
+#rightColGetDotaLink {
+	display:block;
+	width:264px;
+	height:77px;
+	background-image:url('http://cdn.dota2.com/apps/dota2/images/blogfiles/2014/rightcol_steam_button.jpg');
+	background-position: 50% 0%;
+	margin-left:14px;
+	margin-bottom:8px;
+}
+
+#rightColGetDotaLink:hover {
+	background-position: 50% 100%;
+}
+/*end of sidebar*/
